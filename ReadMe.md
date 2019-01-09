@@ -43,8 +43,8 @@ I have accumulated over the years. I am using Vim macros to handle the rest
 manually.
 
 ## Simple guide to "migrate" from Vimwiki to Markdown syntax
-There are two key steps to "migrate" from an existing set of Wikis in Vimwiki
-syntax: 
+After one has converted all the existing `*.wiki` files into `*.md`, here are
+two key steps to "tell Vim" about the migration.
 1. When declaring the Wikis in `~/.vimrc`, include two new keys to specify the
    markdwon syntax for the **files to be created** by Vimwiki in those Wikis. A
    minimum example goes as follows (credits to @Nudin in [this
